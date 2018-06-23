@@ -1,7 +1,7 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-# Visual Studio 14
-VisualStudioVersion = 14.0.25420.1
+# Visual Studio 15
+VisualStudioVersion = 15.0.27703.2026
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Tests", "Tests", "{A340B280-C12B-47E7-90B7-89C650F8AAFC}"
 EndProject
@@ -71,6 +71,8 @@ EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SmartStore.AmazonPay", "Plugins\SmartStore.AmazonPay\SmartStore.AmazonPay.csproj", "{611E4AC2-CA21-5C81-6B4B-3ABA87B91A25}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SmartStore.DevTools", "Plugins\SmartStore.DevTools\SmartStore.DevTools.csproj", "{542B9C12-E2A1-49BB-9134-0E3484F9D669}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SmartStore.WipayVoucher", "SmartStore.WipayVoucher\SmartStore.WipayVoucher.csproj", "{53FBBACE-42EF-4EF0-A583-F80FF79D1F0A}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -588,6 +590,30 @@ Global
 		{542B9C12-E2A1-49BB-9134-0E3484F9D669}.Release|Mixed Platforms.ActiveCfg = Release|Any CPU
 		{542B9C12-E2A1-49BB-9134-0E3484F9D669}.Release|Mixed Platforms.Build.0 = Release|Any CPU
 		{542B9C12-E2A1-49BB-9134-0E3484F9D669}.Release|x86.ActiveCfg = Release|Any CPU
+		{53FBBACE-42EF-4EF0-A583-F80FF79D1F0A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{53FBBACE-42EF-4EF0-A583-F80FF79D1F0A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{53FBBACE-42EF-4EF0-A583-F80FF79D1F0A}.Debug|Mixed Platforms.ActiveCfg = Debug|Any CPU
+		{53FBBACE-42EF-4EF0-A583-F80FF79D1F0A}.Debug|Mixed Platforms.Build.0 = Debug|Any CPU
+		{53FBBACE-42EF-4EF0-A583-F80FF79D1F0A}.Debug|x86.ActiveCfg = Debug|Any CPU
+		{53FBBACE-42EF-4EF0-A583-F80FF79D1F0A}.Debug|x86.Build.0 = Debug|Any CPU
+		{53FBBACE-42EF-4EF0-A583-F80FF79D1F0A}.EFMigrations|Any CPU.ActiveCfg = Debug|Any CPU
+		{53FBBACE-42EF-4EF0-A583-F80FF79D1F0A}.EFMigrations|Any CPU.Build.0 = Debug|Any CPU
+		{53FBBACE-42EF-4EF0-A583-F80FF79D1F0A}.EFMigrations|Mixed Platforms.ActiveCfg = Debug|Any CPU
+		{53FBBACE-42EF-4EF0-A583-F80FF79D1F0A}.EFMigrations|Mixed Platforms.Build.0 = Debug|Any CPU
+		{53FBBACE-42EF-4EF0-A583-F80FF79D1F0A}.EFMigrations|x86.ActiveCfg = Debug|Any CPU
+		{53FBBACE-42EF-4EF0-A583-F80FF79D1F0A}.EFMigrations|x86.Build.0 = Debug|Any CPU
+		{53FBBACE-42EF-4EF0-A583-F80FF79D1F0A}.PluginDev|Any CPU.ActiveCfg = Debug|Any CPU
+		{53FBBACE-42EF-4EF0-A583-F80FF79D1F0A}.PluginDev|Any CPU.Build.0 = Debug|Any CPU
+		{53FBBACE-42EF-4EF0-A583-F80FF79D1F0A}.PluginDev|Mixed Platforms.ActiveCfg = Debug|Any CPU
+		{53FBBACE-42EF-4EF0-A583-F80FF79D1F0A}.PluginDev|Mixed Platforms.Build.0 = Debug|Any CPU
+		{53FBBACE-42EF-4EF0-A583-F80FF79D1F0A}.PluginDev|x86.ActiveCfg = Debug|Any CPU
+		{53FBBACE-42EF-4EF0-A583-F80FF79D1F0A}.PluginDev|x86.Build.0 = Debug|Any CPU
+		{53FBBACE-42EF-4EF0-A583-F80FF79D1F0A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{53FBBACE-42EF-4EF0-A583-F80FF79D1F0A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{53FBBACE-42EF-4EF0-A583-F80FF79D1F0A}.Release|Mixed Platforms.ActiveCfg = Release|Any CPU
+		{53FBBACE-42EF-4EF0-A583-F80FF79D1F0A}.Release|Mixed Platforms.Build.0 = Release|Any CPU
+		{53FBBACE-42EF-4EF0-A583-F80FF79D1F0A}.Release|x86.ActiveCfg = Release|Any CPU
+		{53FBBACE-42EF-4EF0-A583-F80FF79D1F0A}.Release|x86.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -612,6 +638,10 @@ Global
 		{ACC1E122-B2C8-4441-BDED-D4A77763331A} = {7881B112-7843-4542-B1F7-F99553FB9BB7}
 		{611E4AC2-CA21-5C81-6B4B-3ABA87B91A25} = {7881B112-7843-4542-B1F7-F99553FB9BB7}
 		{542B9C12-E2A1-49BB-9134-0E3484F9D669} = {7881B112-7843-4542-B1F7-F99553FB9BB7}
+		{53FBBACE-42EF-4EF0-A583-F80FF79D1F0A} = {7881B112-7843-4542-B1F7-F99553FB9BB7}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {9DF93F07-338B-4561-8177-80E3BEA50393}
 	EndGlobalSection
 	GlobalSection(NDepend) = preSolution
 		Project = ".\SmartStoreNET.ndproj"

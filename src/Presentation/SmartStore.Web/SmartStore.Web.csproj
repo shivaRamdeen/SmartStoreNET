@@ -1211,6 +1211,8 @@
     <Content Include="Themes\Flex\Content\images\star-off.png" />
     <Content Include="Themes\Flex\Content\images\star-on-12.png" />
     <Content Include="Themes\Flex\Content\images\star-on.png" />
+    <None Include="Properties\PublishProfiles\autopartts - FTP.pubxml" />
+    <None Include="Properties\PublishProfiles\autopartts - Web Deploy.pubxml" />
     <None Include="Themes\Flex\Content\compiled\theme.css" />
     <Content Include="Themes\Flex\Content\images\grippy.png" />
     <Content Include="Themes\Flex\Content\_megamenu.scss" />

@@ -1,0 +1,9 @@
+﻿FriendlyName: Wipay Voucher
+SystemName: SmartStore.WipayVoucher
+Group: Payments
+Version: 1.00
+MinAppVersion: 3.1.5
+Author: Shiva Ramdeen
+DisplayOrder: 1
+FileName: SmartStore.WipayVoucher.dll
+ResourceRootKey: Plugins.SmartStore.WipayVoucher
